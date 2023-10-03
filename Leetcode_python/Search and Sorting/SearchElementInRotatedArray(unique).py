@@ -33,7 +33,7 @@ class Solution:
                 s = mid + 1
         return - 1
 
-    def search(self, nums: List[int], target: int) -> int:
+    def search(self, nums, target):
         s = 0
         e = len(nums) - 1
         ans = -1
