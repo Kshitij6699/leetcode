@@ -29,7 +29,7 @@ class Solution:
             else:
                 Tsum += nums[i]
         return True
-    def splitArray(self, nums: List[int], k: int) -> int:
+    def splitArray(self, nums, k):
         start = max(nums)
         end = sum(nums)
         while(start <= end):
