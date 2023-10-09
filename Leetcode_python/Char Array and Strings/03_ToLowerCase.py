@@ -1,3 +1,4 @@
+#ORG and CHR=> word - 97 + 65
 def toLowerCase(string):
     str = ""
     i = 0
